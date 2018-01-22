@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/scan_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <com.rhino.zxingdemo.view.ViewfinderView
+        android:id="@+id/scan_qrcode_scan_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sv_scan_height="230dp"
+        app:sv_scan_width="230dp"
+        app:sv_scan_outside_color="#88000000"
+        app:sv_stroke_width="1dp"
+        app:sv_stroke_color="#AA000000"
+        app:sv_corner_width="2dp"
+        app:sv_corner_length="15dp"
+        app:sv_corner_color="#00FF00"
+        app:sv_anim_line_width="1.5dp"
+        app:sv_anim_line_color="#FFFF00"/>
+
+
+</RelativeLayout>

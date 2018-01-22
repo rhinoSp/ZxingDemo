@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewfinderView">
+
+        <attr name="sv_scan_width" format="dimension" />
+        <attr name="sv_scan_height" format="dimension" />
+        <attr name="sv_scan_outside_color" format="color" />
+
+        <attr name="sv_stroke_width" format="dimension" />
+        <attr name="sv_stroke_color" format="color" />
+
+        <attr name="sv_corner_width" format="dimension" />
+        <attr name="sv_corner_length" format="dimension" />
+        <attr name="sv_corner_color" format="color" />
+
+        <attr name="sv_anim_line_width" format="dimension" />
+        <attr name="sv_anim_line_color" format="color" />
+
+    </declare-styleable>
+
+</resources>
+
